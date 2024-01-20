@@ -16,7 +16,7 @@
 
 ### Mobile
 
-![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.jpng)
+![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.png)
 
 ## 사용된 개념
 
