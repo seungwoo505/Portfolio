@@ -1,0 +1,46 @@
+.mabout{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    color: #fff;
+}
+
+.mInformation{
+    width: 100%;
+    text-align: center;
+    font-size: 7rem;
+}
+
+.mIntroductions{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.mIntro{
+    width: 70%;
+    height: 70%;
+}
+
+.mIntroductionImg{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+.mIntroductionEx{
+    width: 100%;
+    word-break: break-all;
+}
+
+.mIntroduction{
+    font-size: 3rem;
+    text-align: center;
+    white-space: pre-line;
+}

@@ -1,0 +1,48 @@
+.mcontact_email{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .mcontact{
+    text-align: center;
+    font-size: 9rem;
+  }
+  
+  .minput_send{
+    width: 100%;
+    margin-top: 20%;
+  }
+  .mname, .memail, .mphone, .mmessage{
+    background: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 4.5rem;
+    outline: none;
+    margin-bottom: 9%;
+    font-family: "Pretendard-Regular";
+  }
+  .mname::placeholder, .memail::placeholder, .mphone::placeholder, .mmessage::placeholder{
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .msend{
+    background: transparent;
+    color: #fff;
+    float: right;
+    font-size: 5rem;
+    margin-top: 12%;
+    outline: 0;
+    padding: 2.2% 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 100%;
+  }
+  
+  .msend:hover{
+    background: #007aff;
+    border-color: #007aff;
+  }

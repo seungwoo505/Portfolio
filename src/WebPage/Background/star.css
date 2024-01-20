@@ -1,0 +1,98 @@
+.constelacao0 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*background: -moz-linear-gradient(top, #000000 50%, #191327 80%, #2b2048 100%);*/
+    background: -moz-linear-gradient(top, #000000 50%, #191919 80%, #2B2B2B 100%);
+    background: -webkit-linear-gradient(top, #000000 50%, #191919 80%, #2B2B2B 100%);
+    background: linear-gradient(to bottom, #000000 50%, #191919 80%, #2B2B2B 100%);
+    z-index: -1;
+  }
+  .constelacao1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, #191919 0%, #212121 50%, #3b3b3b 100%);
+    background: -webkit-linear-gradient(top, #191919 0%, #212121 50%, #3b3b3b 100%);
+    background: linear-gradient(to bottom, #191919 0%, #212121 50%, #3b3b3b 100%);
+    z-index: -1;
+  }
+  .constelacao2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, #212121 0%, #3b3b3b 70%, #595959 100%);
+    background: -webkit-linear-gradient(top, #212121 0%, #3b3b3b 70%, #595959 100%);
+    background: linear-gradient(to bottom, #212121 0%, #3b3b3b 70%, #595959 100%);
+    z-index: -1;
+  }
+  .constelacao3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-linear-gradient(top, #3b3b3b 0%, #555555 80%, #707070 100%);
+    background: -webkit-linear-gradient(top, #3b3b3b 0%, #555555 80%, #707070 100%);
+    background: linear-gradient(to bottom, #3b3b3b 0%, #555555 80%, #707070 100%);
+    z-index: -1;
+  }
+  
+  .estrela {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: estrela;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
+  .estrela.style2 { animation-duration: 1s; animation-name: estrela; }
+  .estrela.style3 { animation-duration: 1.5s; animation-name: estrela; }
+  .estrela.style4 { animation-duration: 2s; animation-name: estrelaDestacada; }
+  
+  .estrela.tam1 { width: 0.08rem; height: 0.08rem }
+  .estrela.tam2 { width: 0.16rem; height: 0.16rem }
+  .estrela.tam3 { width: 0.24rem; height: 0.24rem; }
+  
+  .estrela.opacity1 { opacity:  1; }
+  .estrela.opacity2 { opacity: .5; }
+  .estrela.opacity3 { opacity: .1; }
+  
+  @keyframes estrela {
+    0% {
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.05);
+    }
+    50% {
+      box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.05);
+    }
+  }
+  
+  @keyframes estrelaDestacada {
+    0% {
+      background-color: #FFFFFF;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 1);
+    }
+    20% {
+      background-color: #FFC4C4;
+      box-shadow: 0 0 10px 0px rgb(255, 196, 196, 1);
+    }
+    80% {
+      background-color: #C4CFFF;
+      box-shadow: 0 0 10px 0px rgb(196, 207, 255, 1);
+    }
+    100% {
+      background-color: #FFFFFF;
+      box-shadow: 0 0 10px 0px rgba(255, 255, 255, 0.2);
+    }
+  }

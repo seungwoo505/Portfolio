@@ -1,0 +1,43 @@
+
+.welcome{
+    display: block;
+    transform: translateX(-200px);
+    transition: all 0.8s cubic-bezier(0.17, 0.55, 1) 0.3s;
+    opacity: 0;
+  }
+
+  .popol{
+    display: block;
+    transform: translateX(200px);
+    transition: all 0.8s cubic-bezier(0.17, 0.55, 1) 1.1s;
+    opacity: 0;
+  }
+
+  .tutorial{
+    display: block;
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  
+  .welcome{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 5rem;
+  }
+  
+  .popol{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    font-size: 5rem;
+  }
+  
+  .tutorial{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }

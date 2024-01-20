@@ -1,0 +1,219 @@
+.mproject{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+.mProjectSide{
+  width: 100%;
+  text-align: center;
+  font-size: 7rem;
+}
+
+.mmodal{
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: #1e242c;
+  }
+
+  .mSecondSwiper{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mXbutton{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    height: 6%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .1);
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .mSecondSwiper > .swiper-pagination > .swiper-pagination-bullet {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .mSecondSwiper > .swiper-pagination > .swiper-pagination-bullet-active {
+    width: 4rem;
+    height: 4rem;
+    background: #007aff;
+  }
+  
+  .mReact, .mReactNative, .mNext, .mJS, .mAndroid, .mDocument{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .mReactImage, .mReactNativeImage, .mNextImage, .mJSImage, .mAndroidImage, .mDocumentImage{
+    width: 60%;
+    border-radius: 50%;
+  }
+  
+  .mswiper_Total{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mswiper_top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mswiper_bottom{
+    width: 100%;
+    height: 60%;
+  }
+  
+  .mproject_title{
+    width: 70%;
+    margin-bottom: 1rem;
+    font-size: 5rem;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+  
+  .mproject_exposition{
+    width: 70%;
+    font-size: 3rem;
+    margin: 0 auto;
+    white-space: pre-line;
+  }
+  
+  .mproject_url{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+  .mproject_link{
+    width: 15%;
+    display: inline-block;
+    margin-right: 10%;
+  }
+  
+  .mproject_github{
+    width: 15%;
+    display: inline-block;
+  }
+
+  .mswiper_top2{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mswiper_bottom2{
+    width: 100%;
+    height: 60%;
+  }
+
+  .mproject_bottom2{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mproject_title2{
+    width: 70%;
+    font-size: 5rem;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+  
+  .mproject_exposition2{
+    width: 70%;
+    font-size: 3rem;
+    margin: 0 auto;
+    white-space: pre-line;
+  }
+  
+  .mproject_url2{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  
+  .mproject_github2{
+    width: 15%;
+    display: inline-block;
+  }
+
+  .mother{
+    width: 70%;
+  }
+
+  .mandroid{
+    height: 80%;
+  }
+
+  .mswiper_docs{
+    height: 100%;
+    width: 100%;
+  }
+
+  .mproject_skill_title{
+    text-align: center;
+    font-size: 5rem;
+    width: 100%;
+    height: 5%;
+  }
+
+  .mproject_skills{
+    height: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    color: #fff;
+    margin-top: 1%;
+  }
+
+  .mproject_skill{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+    font-size: 3rem;
+  }
+
+  .mSecondSwiper > .swiper-button-prev{
+    margin-left: 1.5%;
+  }
+  .mSecondSwiper > .swiper-button-next{
+    margin-right: 1.5%;
+  }
+
+  .mSecondSwiper > .swiper-button-prev::after, .mSecondSwiper > .swiper-button-next::after{
+    font-size: 7rem;
+  }
+  .mSecondSwiper > .swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+  }
+  .mSecondSwiper > .swiper-pagination > .swiper-pagination-bullet{
+    margin-right: 1%;
+  }

@@ -1,0 +1,14 @@
+.MainSwiper{
+    width: 90%;
+    height: 90%;
+  }
+  
+  .MainSwiperSlide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+  }

@@ -1,0 +1,211 @@
+.project{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
+.ProjectSide{
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.modal{
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border-radius: 80px;
+    background-color: #1e242c;
+  }
+
+  .SecondSwiper{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .Xbutton{
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 3%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .1);
+    z-index: 1;
+    color: #fff;
+  }
+  
+  .SecondSwiper > .swiper-pagination > .swiper-pagination-bullet {
+    width: 0.5rem;
+    height: 0.5rem;
+    text-align: center;
+    opacity: 1;
+    background: rgba(255, 255, 255, 1);
+  }
+  .SecondSwiper > .swiper-pagination > .swiper-pagination-bullet-active {
+    width: 0.8rem;
+    height: 0.8rem;
+    background: #007aff;
+  }
+  .React, .ReactNative, .Next, .JS, .Android, .Document{
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .ReactImage, .ReactNativeImage, .NextImage, .JSImage, .AndroidImage, .DocumentImage{
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .swiper_Total{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper_left{
+    width: 50%;
+    height: 95%;
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .swiper_right{
+    width: 35%;
+    height: 95%;
+    float: right;
+    margin-right: 5%;
+  }
+
+  .swiper_left, .swiper_right{
+    margin-top: 5%;
+  }
+  
+  .project_title{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .project_exposition{
+    white-space: pre-line;
+    font-size: 1.25rem;
+  }
+  
+  .project_url{
+    width: 20%;
+    margin-top: 5%;
+  }
+  
+  .project_link{
+    width: 40%;
+    display: inline-block;
+    margin-right: 10%;
+  }
+  
+  .project_github{
+    width: 40%;
+    display: inline-block;
+  }
+
+  .swiper_left2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper_right2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project_right2{
+    width: 80%;
+    height: 80%;
+  }
+  
+  .project_title2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  .project_exposition2{
+    white-space: pre-line;
+    font-size: 1.25rem;
+  }
+  
+  .project_url2{
+    width: 10%;
+    margin-top: 5%;
+  }
+  .project_github2{
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .other{
+    width: 100%;
+  }
+  .android{
+    height: 80%;
+  }
+
+  .swiper_docs{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .project_skill_title{
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    font-size: 2rem;
+  }
+
+  .project_skills{
+    height: 95%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    color: #fff;
+    margin-top: 1%;
+  }
+
+  .project_skill{
+    width: 33.333%;
+    display: flex;
+    font-size: 1.25rem;
+    justify-content: center;
+    margin: 1% 0;
+  }
+
+  .SecondSwiper > .swiper-button-prev{
+    margin-left: 1.5%;
+  }
+  .SecondSwiper > .swiper-button-next{
+    margin-right: 1.5%;
+  }
+  .SecondSwiper > .swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+  }
+  .SecondSwiper > .swiper-pagination > .swiper-pagination-bullet{
+    margin-right: 1%;
+  }
