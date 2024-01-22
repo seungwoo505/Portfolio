@@ -18,10 +18,10 @@
 .mmodal{
     position: fixed;
     z-index: 1;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
     border-radius: 30px;
     background-color: #1e242c;
   }
@@ -73,7 +73,7 @@
   
   .mswiper_top{
     width: 100%;
-    height: 40%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@
   
   .mswiper_bottom{
     width: 100%;
-    height: 60%;
+    height: 50%;
   }
   
   .mproject_title{
@@ -118,7 +118,7 @@
 
   .mswiper_top2{
     width: 100%;
-    height: 40%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +126,7 @@
   
   .mswiper_bottom2{
     width: 100%;
-    height: 60%;
+    height: 50%;
   }
 
   .mproject_bottom2{
