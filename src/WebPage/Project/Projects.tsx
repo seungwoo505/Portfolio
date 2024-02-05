@@ -70,7 +70,7 @@ const Projects = (props:any) =>{
                                     props.MainSwiper.allowTouchMove = true;
                                 }
                             }}>
-                            {CardLists.title !== "Document" && CardLists.title !== "Android" && (
+                            {CardLists.title !== "Document" && CardLists.title !== "Android" && CardLists.title !== "ReactNative" && (
                             CardLists.project.map((item:Project)=>(
                                 <SwiperSlide key={`${item.title}`}>
                                     <div className={`${BrowserCheck.Browser ? "swiper_Total" : `${BrowserCheck.Mobile ? "mswiper_Total" : ""}`}`}>
@@ -106,7 +106,7 @@ const Projects = (props:any) =>{
                                     </div>
                                 </SwiperSlide>
                             )))}
-                            {CardLists.title !== "Document" && CardLists.title === "Android" && (
+                            {CardLists.title !== "Document" && (CardLists.title === "Android" || CardLists.title === "ReactNative") && (
                             CardLists.project.map((item:Project)=>(
                                 <SwiperSlide key={`${item.title}`}>
                                     <div className={`${BrowserCheck.Browser ? "swiper_Total" : `${BrowserCheck.Mobile ? "mswiper_Total" : ""}`}`}>
