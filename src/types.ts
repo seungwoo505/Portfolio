@@ -116,7 +116,7 @@ export const CardList: Card[] = [
         },
         {
             title: "간단한 계산기 앱",
-            exposition: `간단하게 사칙연산이 가능한 계산기입니다.
+            exposition: `원래는 다양한 연산이 가능하게 하려고했으나 학교에서 개발 기간을 짧게 설정을 하여 기본적인 사칙연산만 가능하게 변경하여 개발되었습니다.
                         제작 기간: 2023.06 ~ 2023.06
                         주요 기술: Android, Java`,
             image: "https://raw.githubusercontent.com/seungwoo505/Calculator/main/image.png",
@@ -124,8 +124,7 @@ export const CardList: Card[] = [
         },
         {
             title: "ToDoList",
-            exposition: `끝내야하는 기간을 설정 가능한 할 일 앱입니다.
-                        남은 기간을 계산하여 퍼센트로 수치화해서 표시해줍니다.
+            exposition: `기본적인 ToDoList는 그냥 할 일만 적는 프로그램인데 기간을 설정하고 그 기간이 얼마나 남았는가에 대한 표시도 되면 어떨까라는 생각에 개발되었습니다.
                         제작 기간: 2023.12 ~ 2023.12
                         주요 기술: Android, Java, SQLite`,
             image: "https://raw.githubusercontent.com/seungwoo505/ToDoList/main/todolist.png",
