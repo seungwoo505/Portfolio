@@ -86,7 +86,7 @@ export const CardList: Card[] = [
         {
             title: "피아노 연습 페이지",
             exposition: `3학년 때 과제로 만든 페이지입니다.
-                        과제 주체가 아두이노와 폰을 연동하라는 것이였는데 주제가 정해져있지않아 모바일 환경 뿐만이 아닌 웹 환경에서도 작동될 수 있게하면 어떨까라는 생각에 개발되었습니다.
+                        과제가 아두이노와 폰을 연동하라는 것이였는데 주제가 정해져있지않아 모바일 환경 뿐만이 아닌 웹 환경에서도 작동될 수 있게하면 어떨까라는 생각에 개발되었습니다.
                         제작 기간: 2022.05 ~ 2022.06
                         주요 기술: HTML, CSS, JavaScript, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/piano-practice/main/mainScreen.png",
