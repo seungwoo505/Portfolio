@@ -17,7 +17,7 @@ export const CardList: Card[] = [
         project: [
         {
             title: "실시간 통신을 이용한 메모장",
-            exposition: `메모장 제목과 비밀번호를 입력하면 같은 메모장에 접속해있는 다른 사람들과 실시간 통신으로 의견을 주고받을 수 있습니다.
+            exposition: `많은 메모장이 있지만 실시간 공유가 아닌 정적인 공유가 대부분이기에 실시간 통신을 할 수 있지않을까라는 생각에 개발을 진행했습니다.
                         제작 기간: 2023.03 ~ 2023.05
                         주요 기술: React, HTML, CSS, MariaDB, PHP`,
             image: "https://raw.githubusercontent.com/seungwoo505/Notepads/main/mainScreen.png",
@@ -38,10 +38,11 @@ export const CardList: Card[] = [
         project: [
         {
             title: "기억력 테스트 게임",
-            exposition: `n의 제곱 개의 칸이 나오고 일정시간 후 칸에 있던 숫자가 사라진다음 숫자에 맞게 순서대로 클릭하면 되는 간단한 게임입니다.
+            exposition: `요즘 젊은 층에서 기억력이 많이 낮아졌다는 조사 결과가 있습니다.
+                        그 원인 중 스마트폰의 등장이라고 보는데 그럼 그 스마트폰으로 기억력을 올려주는 게임을 개발하면 어떨까라는 생각에 개발을 진행했습니다.
                         제작 기간: 2023.09 ~ 2023.11
                         주요 기술: React Native, React Navigation, MariaDB, PHP`,
-            image: "https://raw.githubusercontent.com/seungwoo505/Notepads/main/mainScreen.png",
+            image: "https://raw.githubusercontent.com/seungwoo505/Memory/main/memory.png",
             github: "https://github.com/seungwoo505/Memory"
         }],
         image: "../../image/ReactNative.png"
@@ -52,7 +53,7 @@ export const CardList: Card[] = [
         {
             title: "회사 홈페이지 수정",
             exposition: `전에 만들었던 홈페이지를 수정한 버전입니다.
-                        바닐라JS에서 NextJS로 전면 수정하고 그 때 당시 남아있던 버그를 수정했습니다.
+                        현재 페이지 상 MPA보다 SPA가 어울린다 생각되어 NextJS로 전면 수정하고 그 때 당시 남아있던 버그를 수정했습니다.
                         제작 기간: 2023.07 ~ 2023.09
                         주요 기술: NextJS, TypeScript, Swiper, Framer Motion, Naver Maps API`,
             image: "https://raw.githubusercontent.com/seungwoo505/ECGM-edit-Version/main/mainScreen.png",
@@ -65,7 +66,8 @@ export const CardList: Card[] = [
         project: [
         {
             title: "태양 위치에 따른 태양열패드 각도 예측 프로그램",
-            exposition: `2019 동양미래EXPO에 전시된 제품을 쉽게 보여주기위해 만든 페이지입니다.
+            exposition: `2019 동양미래EXPO에 전시된 제품은 외부에서 보여줘야 설명하기 편하지만
+                        전시 특성상 내부에서 보여줘야하기 때문에 보다 쉽게 보여주기위해 만든 페이지입니다.
                         제작 기간: 2019.07 ~ 2019.10
                         주요 기술: HTML, CSS, JavaScript, Three.js, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/2019COEX/master/page.png",
@@ -74,15 +76,17 @@ export const CardList: Card[] = [
         {
             title: "회사 홈페이지",
             exposition: `홈페이지를 만들어달라해서 만들어준 홈페이지입니다.
+                        그 때 당시에는 MPA와 SPA의 개념이 명확하지못했어서 MPA를 SPA처럼 개발을 진행했었습니다.
+                        추후 Next.js를 통해 전면 수정했습니다.
                         제작 기간: 2019.11 ~ 2020.01
-                        주요 기술: HTML, CSS, JavaScript`,
+                        주요 기술: HTML, CSS, JavaScript, jQuery`,
             image: "https://raw.githubusercontent.com/seungwoo505/ECGM-Project/main/mainScreen.png",
             github: "https://github.com/seungwoo505/ECGM-project"
         },
         {
             title: "피아노 연습 페이지",
             exposition: `3학년 때 과제로 만든 페이지입니다.
-                        아두이노와 연동해서 작동하는 방식입니다.
+                        과제 주체가 아두이노와 폰을 연동하라는 것이였는데 주제가 정해져있지않아 모바일 환경 뿐만이 아닌 웹 환경에서도 작동될 수 있게하면 어떨까라는 생각에 개발되었습니다.
                         제작 기간: 2022.05 ~ 2022.06
                         주요 기술: HTML, CSS, JavaScript, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/piano-practice/main/mainScreen.png",
@@ -91,7 +95,7 @@ export const CardList: Card[] = [
         {
             title: "웹 통신을 통한 RC카 조종",
             exposition: `3학년 때 과제로 만든 페이지입니다.
-                        라즈베리파이로 RC카를 만들고 서버를 구축하여 인터넷 상에서 조종하는 프로그램입니다.
+                        RC카를 웹 사이트를 통해 동작하게 하라는 과제였는데 RC카의 기본은 사용자 자유롭게 동작하는 것이기에 기본에 충실하자라는 의미로 개발되었습니다.
                         제작 기간: 2022.11 ~ 2022.12
                         주요 기술: HTML, CSS, JavaScript, Flask`,
             image: "https://raw.githubusercontent.com/seungwoo505/RC-Control/main/control.png",
@@ -104,7 +108,7 @@ export const CardList: Card[] = [
         title: "Android",
         project: [{
             title: "미세먼지 측정 앱",
-            exposition: `아두이노 기기와 연동해서 미세먼지를 측정하고 현 시점을 기준을 잡아 지도에 현 미세먼지 상태를 표시해줘서 다른 사람들과 공유하는 프로그램입니다.
+            exposition: `현재 위치의 미세먼지 수치는 완벽하게 알 수 없습니다. 그래서 생각한 것이 같은 기기를 들고있다면 공유해줘서 이 곳에 오기 전 대비할 수 있지않을까라는 생각에 개발되었습니다.
                         제작 기간: 2018.07 ~ 2018.09
                         주요 기술: Android, Java, PHP, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/2018COEX/main/mainScreen.png",
