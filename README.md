@@ -22,6 +22,13 @@
 
 ![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.png)
 
+## 설명
+자기 소개를 위한 홈페이지입니다.
+
+스와이프(마우스 드래그, 터지)와 스크롤(마우스 휠) 그리고 키보드(좌우 방향키)를 지원합니다.
+
+그리고 모바일 환경과 PC 환경 모두 동일한 UI, UX를 구축하는 것을 목표로 두어 개발을 진행했습니다.
+
 ## 사용된 개념
 
 - React
