@@ -19,7 +19,7 @@ const Introduction = () =>{
                 </div>
                 {information.map((e:String, i:number)=>{
                     return(
-                        <div className={`${BrowserCheck.Browser ? "Introductions" : `${BrowserCheck.Mobile ? "mIntroductions" : ""}`}`}>
+                        <div className={`${BrowserCheck.Browser ? "Introductions" : `${BrowserCheck.Mobile ? "mIntroductions" : ""}`}`} key={i}>
                             <div className={`${BrowserCheck.Browser ? "Intro" : `${BrowserCheck.Mobile ? "mIntro" : ""}`}`}>
                                 <div className={`${BrowserCheck.Browser ? "IntroductionImg" : `${BrowserCheck.Mobile ? "mIntroductionImg" : ""}`}`}>
                                     <CopyToClipboard text={`${introduction[i]}`} onCopy={()=>alert("복사되었습니다.")}>
