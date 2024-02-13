@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
@@ -32,9 +32,12 @@ const WebPage = () =>{
             className={`mySwiper ${BrowserCheck.Browser ? "MainSwiper" : `${BrowserCheck.Mobile ? "mMainSwiper" : ""}`}`}
             onSlideChange={(e:any)=> dispatch(IndexSlice.actions.IndexChange(e.activeIndex))}
             onSwiper={(swiper:any)=>SetMainSwiper(swiper)}>
-                {SwiperSlides.map((e:any)=>{
+                {SwiperSlides.map((e:any, i:number)=>{
                     return(
-                        <SwiperSlide className={`${BrowserCheck.Browser ? `MainSwiperSlide` : `${BrowserCheck.Mobile ? "mMainSwiperSlide" : ""}`}`}>
+                        <SwiperSlide 
+                            className={`${BrowserCheck.Browser ? `MainSwiperSlide` : `${BrowserCheck.Mobile ? "mMainSwiperSlide" : ""}`}`}
+                            key={i}
+                            >
                             {e}
                         </SwiperSlide>
                     )
