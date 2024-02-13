@@ -16,11 +16,17 @@
 
 ### PC
 
+#### 메인
 ![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainScreen.png)
+#### Project 상세 페이지
+![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/ProjectClick.png)
 
 ### Mobile
 
+#### 메인
 ![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.png)
+#### Project 상세 페이지
+![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/MobileProjectClick.png)
 
 ## 설명
 자기 소개를 위한 홈페이지입니다.
