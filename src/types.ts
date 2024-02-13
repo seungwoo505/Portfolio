@@ -32,7 +32,7 @@ export const CardList: Card[] = [
                         제작 기간: 2024.01 ~ 2024.01
                         주요 기술: React, TypeScript, Swiper, Framer Motion, EmailJS, Redux Toolkit`,
             image: "https://raw.githubusercontent.com/seungwoo505/Portfolio/main/mainScreen.png",
-            github: "https://github.com/seungwoo505/Portpolio"
+            github: "https://github.com/seungwoo505/Portfolio"
         }],
         image: "../../image/React.png"
     },
