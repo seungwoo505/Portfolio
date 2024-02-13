@@ -31,11 +31,11 @@ export const DiviceCheck = createSlice({
   }},
   reducers: {
     BrowserChange: (state, action) =>{
-      state.value.Browser = action.payload.Browser;
+      state.value.Browser = action.payload;
     },
 
     MobileChange: (state, action) =>{
-      state.value.Mobile = action.payload.Mobile;
+      state.value.Mobile = action.payload;
     }
   }
 });
