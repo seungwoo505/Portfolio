@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import './star.css';
-import { useSelector } from "react-redux";
-import { RootState } from "../../app/store";
+import { useDispatch, useSelector } from "react-redux";
+import { DiviceCheck, RootState } from "../../app/store";
+import { isBrowser, isMobile } from "react-device-detect";
 
 const Star = (prop:{index:number}) =>{
     const style = ["style1", "style2", "style3", "style4"];
@@ -9,6 +10,8 @@ const Star = (prop:{index:number}) =>{
     const opacity = ["opacity1", "opacity1", "opacity1", "opacity2", "opacity2", "opacity3"];
     const [star, setstar] = useState<String[][]>();
     const Index = useSelector((State:RootState) => State.Index.value);
+
+    const dispatch = useDispatch();
 
     const getRandomArbitrary = (min:number, max:number):number => {
         return Math.floor(Math.random() * (max - min)) + min;
@@ -29,12 +32,17 @@ const Star = (prop:{index:number}) =>{
         }
     
         setstar(starList);
-    }, []);
+    }, [window.innerWidth, window.innerHeight]);
+
+    useEffect(()=>{
+      dispatch(DiviceCheck.actions.BrowserChange(isBrowser || window.matchMedia('(orientation:landscape)').matches));
+      dispatch(DiviceCheck.actions.MobileChange(isMobile || window.matchMedia('(orientation:portrait)').matches));
+    }, [window.matchMedia('(orientation:portrait)').matches, window.matchMedia('(orientation:landscape)').matches]);
 
     return(
         <div className={`constelacao${prop.index}`}>
           { prop.index == Index &&
-            star?.map((e) =>{
+            star?.map((e:String[], i:number) =>{
               return(
                 <span 
                   className={`estrela ${e[0]} ${e[1]} ${e[2]}`}
@@ -43,6 +51,7 @@ const Star = (prop:{index:number}) =>{
                     top: Number(e[4]),
                     left: Number(e[5])
                   }}
+                  key={i}
                   ></span>
               )
             })
