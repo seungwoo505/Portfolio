@@ -19,7 +19,7 @@ export const CardList: Card[] = [
             title: "실시간 통신을 이용한 메모장",
             exposition: `많은 메모장이 있지만 실시간 공유가 아닌 정적인 공유가 대부분이기에 실시간 통신을 할 수 있지않을까라는 생각에 개발을 진행했습니다.
                         개발 인원: 1명(100% 기여)
-                        제작 기간: 2023.03 ~ 2023.05
+                        제작 기간: 2023.03 ~ 2023.06
                         주요 기술: React, HTML, CSS, MariaDB, PHP`,
             image: "https://raw.githubusercontent.com/seungwoo505/Notepads/main/mainScreen.png",
             github: "https://github.com/seungwoo505/Notepads"
@@ -58,7 +58,7 @@ export const CardList: Card[] = [
             exposition: `전에 만들었던 홈페이지를 수정한 버전입니다.
                         현재 페이지 상 MPA보다 SPA가 어울린다 생각되어 NextJS로 전면 수정하고 그 때 당시 남아있던 버그를 수정했습니다.
                         개발 인원: 2명(100% 기여)
-                        제작 기간: 2023.07 ~ 2023.09
+                        제작 기간: 2023.07 ~ 2024.02
                         주요 기술: NextJS, TypeScript, Swiper, Framer Motion, Naver Maps API`,
             image: "https://raw.githubusercontent.com/seungwoo505/ECGM-edit-Version/main/mainScreen.png",
             github: "https://github.com/seungwoo505/ECGM-edit-Version"
@@ -73,7 +73,7 @@ export const CardList: Card[] = [
             exposition: `2019 동양미래EXPO에 전시된 제품은 외부에서 보여줘야 설명하기 편하지만
                         전시 특성상 내부에서 보여줘야하기 때문에 보다 쉽게 보여주기위해 만든 페이지입니다.
                         개발 인원: 12명(75% 기여)
-                        제작 기간: 2019.07 ~ 2019.10
+                        제작 기간: 2019.06 ~ 2019.10
                         주요 기술: HTML, CSS, JavaScript, Three.js, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/2019COEX/master/page.png",
             github: "https://github.com/seungwoo505/2019COEX"
@@ -118,7 +118,7 @@ export const CardList: Card[] = [
             title: "미세먼지 측정 앱",
             exposition: `상세 위치의 미세먼지 수치는 완벽하게 알 수 없습니다. 그래서 생각한 것이 그 장소의 수치를 공유해주면 도착 전에 대비할 수 있지않을까라는 생각에 개발되었습니다.
                         개발 인원: 9명(90% 기여)
-                        제작 기간: 2018.07 ~ 2018.09
+                        제작 기간: 2018.06 ~ 2018.08
                         주요 기술: Android, Java, PHP, Arduino`,
             image: "https://raw.githubusercontent.com/seungwoo505/2018COEX/main/mainScreen.png",
             github: "https://github.com/seungwoo505/2018COEX"
