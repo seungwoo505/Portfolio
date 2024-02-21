@@ -29,7 +29,7 @@ export const CardList: Card[] = [
             exposition: `현재 접속해있는 사이트입니다.
                         그리고 모바일 환경과 PC 환경 모두 동일한 UI, UX를 구축하는 것을 목표로 두어 개발을 진행했습니다.
                         개발 인원: 1명(100% 기여)
-                        제작 기간: 2024.01 ~ 2024.01
+                        제작 기간: 2024.01 ~ 2024.02
                         주요 기술: React, TypeScript, Swiper, Framer Motion, EmailJS, Redux Toolkit`,
             image: "https://raw.githubusercontent.com/seungwoo505/Portfolio/main/mainScreen.png",
             github: "https://github.com/seungwoo505/Portfolio"
