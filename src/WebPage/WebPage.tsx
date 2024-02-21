@@ -22,10 +22,7 @@ const WebPage = () =>{
     const SwiperSlides:any = [<Welcome/>, <Introduction/>, <Projects MainSwiper={MainSwiper}/>, <EmailSend/>];
 
     useEffect(() =>{
-        window.scrollTo({
-            top: 0,
-            left: 0
-        });
+        window.scrollTo({left: 0});
     },[]);
 
     return(
