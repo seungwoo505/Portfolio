@@ -17,10 +17,10 @@
 ### PC
 
 #### 메인
-<img src="https://github.com/seungwoo505/Portfolio/blob/main/mainScreen.png" height="300"/>
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/mainScreen.png" height="400"/>
 
 #### Project 상세 페이지
-<img src="https://github.com/seungwoo505/Portfolio/blob/main/ProjectClick.png" height="300"/>
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/ProjectClick.png" height="400"/>
 
 ### Mobile
 
