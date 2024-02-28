@@ -2,27 +2,6 @@ import { configureStore, ThunkAction, Action, createSlice } from '@reduxjs/toolk
 import counterReducer from '../features/counter/counterSlice';
 import { isBrowser, isMobile } from 'react-device-detect';
 
-export const CardSlice = createSlice({
-  name: 'cards',
-  initialState: {value : {
-    title: "",
-    project: [{
-      title: "",
-      exposition: "",
-      image: "",
-      github: ""
-    }],
-    image: ""
-  }},
-  reducers: {
-      change: (state, action) =>{
-          state.value.title = action.payload.title;
-          state.value.project = action.payload.project;
-          state.value.image = action.payload.image;
-      }
-  }
-});
-
 export const DiviceCheck = createSlice({
   name: 'DiviceCheck',
   initialState: {value : {
@@ -53,7 +32,6 @@ export const IndexSlice = createSlice({
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
-    cards: CardSlice.reducer,
     DiviceCheck: DiviceCheck.reducer,
     Index: IndexSlice.reducer
   }
