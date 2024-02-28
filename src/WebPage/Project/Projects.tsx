@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { RootState } from '../../app/store';
 import { Card, CardList, Project } from '../../types';
-import { CardSlice } from '../../app/store';
 import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 import {Swiper, SwiperSlide } from 'swiper/react';
 import Star from '../Background/Star';
@@ -11,8 +10,7 @@ import './Projects.css';
 import './mProjects.css';
 
 const Projects = (props:any) =>{
-    const dispatch = useDispatch();
-    const CardLists = useSelector((state:RootState) => state.cards.value);
+    const [CardLists, setCardLists] = useState<Card>({title:"", project:[{title:"",exposition:"",image:"",github:""}], image:""});
     const BrowserCheck = useSelector((State:RootState) => State.DiviceCheck.value);
     const Skills:string[] = ["HTML", "CSS", "JavaScript", "Jquery", "TypeScript", "React", "Next.js", "ReactNative", "Redux", "Python", "Flask", "MariaDB", "docker", "Heroku", "git", "ZEPLIN", "정보처리기사", "SQLD"];
 
@@ -40,7 +38,7 @@ const Projects = (props:any) =>{
                                 src={`${e.image}`}
                                 alt={`${BrowserCheck.Browser ? "MainSwiper" : `${BrowserCheck.Mobile ? "mMainSwiper" : ""}`}`}
                                 onClick={() =>{
-                                    dispatch(CardSlice.actions.change(e));
+                                    setCardLists(e);
                                     props.MainSwiper.mousewheel.disable();
                                     props.MainSwiper.keyboard.disable();
                                     props.MainSwiper.allowTouchMove = false;
@@ -64,7 +62,7 @@ const Projects = (props:any) =>{
                             className={`mySwipe2 ${BrowserCheck.Browser ? "SecondSwiper" : `${BrowserCheck.Mobile ? "mSecondSwiper" : ""}`}`}
                             onKeyPress={(swiper:any, keyCode:String)=> {
                                 if(`${keyCode}`==="27"){
-                                    dispatch(CardSlice.actions.change({title: "", project: [{title:"", exposition: "", image: "", github:""}], image:""}));
+                                    setCardLists({title: "", project: [{title:"", exposition: "", image: "", github:""}], image:""});
                                     props.MainSwiper.mousewheel.enable();
                                     props.MainSwiper.keyboard.enable();
                                     props.MainSwiper.allowTouchMove = true;
@@ -156,7 +154,7 @@ const Projects = (props:any) =>{
                                 viewBox={"0 0 20 20"}
                                 className={`${BrowserCheck.Browser ? "Xbutton" : `${BrowserCheck.Mobile ? "mXbutton" : ""}`}`}
                                 onClick={()=>{
-                                    dispatch(CardSlice.actions.change({title: "", project: [{title:"", exposition: "", image: "", github:""}], image:""}));
+                                    setCardLists({title: "", project: [{title:"", exposition: "", image: "", github:""}], image:""});
                                     props.MainSwiper.mousewheel.enable();
                                     props.MainSwiper.keyboard.enable();
                                     props.MainSwiper.allowTouchMove = true;
