@@ -47,6 +47,16 @@ export const CardList: Card[] = [
                         주요 기술: React Native, React Navigation, MariaDB, PHP`,
             image: "https://raw.githubusercontent.com/seungwoo505/Memory/main/memory.png",
             github: "https://github.com/seungwoo505/Memory"
+        },
+        {
+            title: "ToDoList",
+            exposition: `작년에 만든 React Native 앱의 경우 처음 만드는 것이기도 하고 대학교 과제로써 제출되어야했기에 3개월이라는 짧은 공부와 개발을 동시에 이루어져야했습니다.
+                        그러다보니 공부가 완전히 되지못한 것 같다라는 생각이 들었고 좀 더 공부를 해보자라는 의미로 개발 공부의 기초적인 부분이라 들 수 있는 ToDoList를 개발하게되었습니다.
+                        개발 인원: 1명(100% 기여)
+                        제작 기간: 2024.02 ~ 2024.02
+                        주요 기술: React Native, AsyncStorage`,
+            image: "https://raw.githubusercontent.com/seungwoo505/ToDoList-ver.RN-/main/IosScreen.png",
+            github: "https://github.com/seungwoo505/ToDoList-ver.RN-"
         }],
         image: "../../image/ReactNative.png"
     },
