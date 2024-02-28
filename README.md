@@ -17,16 +17,18 @@
 ### PC
 
 #### 메인
-![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainScreen.png)
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/mainScreen.png" height="500"/>
+
 #### Project 상세 페이지
-![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/ProjectClick.png)
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/ProjectClick.png" height="500"/>
 
 ### Mobile
 
 #### 메인
-![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.png)
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/mainMobileScreen.png" height="500"/>
+
 #### Project 상세 페이지
-![MainScreen](https://github.com/seungwoo505/Portfolio/blob/main/MobileProjectClick.png)
+<img src="https://github.com/seungwoo505/Portfolio/blob/main/MobileProjectClick.png" height="500"/>
 
 ## 설명
 자기 소개를 위한 홈페이지입니다.
