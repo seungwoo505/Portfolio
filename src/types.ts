@@ -20,7 +20,7 @@ export const CardList: Card[] = [
             exposition: `많은 메모장이 있지만 실시간 공유가 아닌 정적인 공유가 대부분이기에 실시간 통신을 할 수 있지않을까라는 생각에 개발을 진행했습니다.
                         개발 인원: 1명(100% 기여)
                         제작 기간: 2023.03 ~ 2023.06
-                        주요 기술: React, HTML, CSS, MariaDB, PHP`,
+                        주요 기술: React, HTML, CSS, MariaDB, PHP, Apache`,
             image: "https://raw.githubusercontent.com/seungwoo505/Notepads/main/mainScreen.png",
             github: "https://github.com/seungwoo505/Notepads"
         },
@@ -30,7 +30,7 @@ export const CardList: Card[] = [
                         그리고 모바일 환경과 PC 환경 모두 동일한 UI, UX를 구축하는 것을 목표로 두어 개발을 진행했습니다.
                         개발 인원: 1명(100% 기여)
                         제작 기간: 2024.01 ~ 2024.02
-                        주요 기술: React, TypeScript, Swiper, Framer Motion, EmailJS, Redux Toolkit Apache`,
+                        주요 기술: React, TypeScript, Swiper, Framer Motion, EmailJS, Redux Toolkit, Apache`,
             image: "https://raw.githubusercontent.com/seungwoo505/Portfolio/main/mainScreen.png",
             github: "https://github.com/seungwoo505/Portfolio"
         }],
