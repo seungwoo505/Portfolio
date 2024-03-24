@@ -95,7 +95,7 @@ export const CardList: Card[] = [
                         추후 Next.js를 통해 전면 수정했습니다.
                         개발 인원: 2명(100% 기여)
                         제작 기간: 2019.11 ~ 2020.01
-                        주요 기술: HTML, CSS, JavaScript, jQuery`,
+                        주요 기술: HTML, CSS, JavaScript, jQuery, Naver Maps API`,
             image: "https://raw.githubusercontent.com/seungwoo505/ECGM-Project/main/mainScreen.png",
             github: "https://github.com/seungwoo505/ECGM-project"
         },
